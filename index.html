@@ -1,0 +1,581 @@
+<!-- Alertia is a js library to get instant beautifull alert messages by just one line of code! -->
+
+<!-- Alertia is designed & coded by @abhiprojectz -->
+
+<!-- Posted on 22/05/2020 at 2:04 IST -->
+
+<!-- This prpject is open source & you can get it on github => @abhiprojectz/alertia -->
+
+<!-- Grab it by on JSdelivr -->
+
+<!-- Do comment down bugs, issues etc and don't forget to give it a thumbs up and a upvote -->
+
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Alertia! by abhi</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <script src="https://kit.fontawesome.com/97cc306c60.js" crossorigin="anonymous"></script>
+
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+          
+
+         <script src="https://cdn.jsdelivr.net/gh/abhiprojectz/alertia/dist/alertia.js"></script>
+
+         
+
+         <link rel="stylesheet" href="alertia.css"></link>
+
+        
+
+        
+
+    </head>
+
+    <body>
+
+    <div id="loader">
+
+          
+
+          <div id="space">
+
+              <p style="text-align:center;font-family:Passion one;font-size:22px;color:#fff;">Alertia!</p>
+
+          </div>
+
+          <svg width="44" height="44" viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
+
+<g fill="none" fill-rule="evenodd" stroke-width="2">
+
+<circle cx="22" cy="22" r="19.4407">
+
+<animate attributeName="r" begin="0s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1" keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite"></animate>
+
+<animate attributeName="stroke-opacity" begin="0s" dur="1.8s" values="1; 0" calcMode="spline" keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite"></animate>
+
+</circle>
+
+<circle cx="22" cy="22" r="11.526">
+
+<animate attributeName="r" begin="-0.9s" dur="1.8s" values="1; 20" calcMode="spline" keyTimes="0; 1" keySplines="0.165, 0.84, 0.44, 1" repeatCount="indefinite"></animate>
+
+<animate attributeName="stroke-opacity" begin="-0.9s" dur="1.8s" values="1; 0" calcMode="spline" keyTimes="0; 1" keySplines="0.3, 0.61, 0.355, 1" repeatCount="indefinite"></animate>
+
+</circle>
+
+</g>
+
+</svg>
+
+        
+
+      </div>
+
+      
+
+      
+
+      <div id="super"/>
+
+      
+
+<div id="header">
+
+    <i id="menu" class="far fa-minus-square"></i>
+
+    Alertia 
+
+    <i id="code" class="fas fa-code"></i>
+
+</div>
+
+<div class="slider">
+
+<button class="btn" id="previous"><i class="fas fa-arrow-circle-left"></i></button>
+
+<button class="btn" id="next"><i class="fas fa-arrow-circle-right"></i></button>
+
+<div class="slide active">
+
+    
+
+     <div id="space"></div>
+
+      <button id="res" onclick='alertia({"msg":"Nice! you got Alertia.",
+
+        "type":"success",
+
+        "style": "slit",
+
+        "time": "3000"});'>Try Me!</button>
+
+ 
+
+        
+
+        <div id="info">
+
+            <p>Welcome to alertia!</p>
+
+            <p>Just add a script tag , thanks to JSdelivr and hola!</p>
+
+            <p>Grab this beautifull alert by just one line of code!</p>
+
+            
+
+            <p>Slide left by Tapping the right arrow <br />to explore <strong>Alertia!</strong></p>
+
+            <p id="ccode">
+
+                => alertia("A random pop!");
+
+            </p>
+
+        </div>
+
+        <div id="footer">
+
+            <p>Created with JS by <a href="https://github.com/abhiprojectz">Abhi</a></p>
+
+            <p>© Abhiprojectz || 2020</p>
+
+        </div>
+
+</div>
+
+  <div class="slide">
+
+<p>Welcome! lets explore ALERTIA</p>
+
+ <p>Just add a script tag in the head of your document containing the alertia path!</p>
+
+ <p>Alertia is hosted on <strong>Jsdelivr</strong> you can also grab it there!</p>
+
+ <p>Alertia replaces the old looking JS alert like this <button onclick="alert('hi there!')"> Alert</button> </p>
+
+ 
+
+ <p>Alertia supports lots of animations</p>
+
+ <p>Different styles</p>
+
+  <button id="res" onclick='alertia("A simple pop!")'>Try Me!</button>
+
+ 
+
+ 
+
+   <div class="card">
+
+                <div class="ctitle">Alertia basic</div>
+
+                <div class="detail">
+
+                    <div class="by">Alertia supports very simple commands!</div>
+
+                    <div class="time">JS</div>
+
+                </div>
+
+                <div id="ccontent">alertia("A simple pop!");</div>
+
+        </div>
+
+  </div>
+
+  
+
+  
+
+  <div class="slide">
+
+      
+
+      <p>Lets try Different types including <strong>Danger</strong> ,<strong>Success</strong>  & <strong>normal</strong> type!</p>
+
+      
+
+      <button id="res" onclick='alertia("A simple pop!","normal")'>Try Me!</button>
+
+ 
+
+ 
+
+   <div class="card">
+
+                <div class="ctitle">Alertia Basic</div>
+
+                
+
+                <div class="detail">
+
+                    <div class="by">Use type: danger,normal,success</div>
+
+                <div class="time">JS</div>
+
+                </div>
+
+                <div id="ccontent">alertia("A simple pop!","success");</div>
+
+        </div>
+
+        
+
+        
+
+        </div>
+
+        
+
+        
+
+             <div class="slide">
+
+            
+
+            <p>Alertia also supports a timer which closes the alert by a certain amount of time!</p>
+
+            <button id="res" onclick='alertia("A simple pop!","normal",3000)'>Try Me!</button>
+
+ 
+
+ 
+
+   <div class="card">
+
+                <div class="ctitle">Alertia basic</div>
+
+                
+
+                <div class="detail">
+
+                    <div class="by">Use time: 3000 // or ur choice</div>
+
+                <div class="time">JS</div>
+
+                </div>
+
+                <div id="ccontent">alertia("A simple pop!","normal",3000);</div>
+
+        </div>
+
+ 
+
+        </div>
+
+        
+
+        
+
+        
+
+        <div class="slide">
+
+        
+
+        <p>Isn't it awesome?..</p>
+
+            
+
+            <p>Lets move on something advanced.</p>
+
+            
+
+            <p>you can customize alertia using Basic Json type formatting.</p>
+
+            <button id="res" onclick='alertia({"msg":"a advanced pop!","type":"success","style": "fade","time": "3000"})'>Try Me!</button>
+
+ 
+
+ 
+
+   <div class="card">
+
+                <div class="ctitle">Alertia Advanced</div>
+
+                
+
+                <div class="detail">
+
+                    <div class="by">Use object parameter as below:</div>
+
+                <div class="time">JS</div>
+
+                </div>
+
+                <div id="ccontent">alertia({"msg":"a advanced pop!","type":"success","style": "fade","time": "3000"});</div>
+
+        </div>
+
+ 
+
+            
+
+            
+
+        </div>
+
+        
+
+        
+
+        <div class="slide">
+
+            
+
+            <p>Lets change animations</p>
+
+            
+
+            <p>Alertia contains Different types of animations like <strong>roll</strong>, <strong>slide</strong>, <strong>slit</strong>, <strong>fade</strong>....and lots more!</p>
+
+            
+
+            <button id="res" onclick='alertia({"msg":"a advanced pop!","type":"success","style": "roll"})'>Try Me!</button>
+
+ 
+
+ 
+
+   <div class="card">
+
+                <div class="ctitle">Alertia advanced</div>
+
+                
+
+                <div class="detail">
+
+                    <div class="by">Use style: slit</div>
+
+                <div class="time">JS</div>
+
+                </div>
+
+                <div id="ccontent">alertia({"msg":"a advanced pop!","type":"success","style": "roll"});</div>
+
+        </div>
+
+ 
+
+            
+
+        </div>
+
+        
+
+        <div class="slide">
+
+            
+
+            <p>Now here comes the end for more, test it by youself</p>
+
+            
+
+            <p>A full syntax by order of alertia is given below!</p>
+
+            
+
+            
+
+            
+
+            
+
+            <button id="res" onclick='alertia({"msg":"a advanced pop!","type":"success","style": "danger","time":"4000"});'>Try Me!</button>
+
+ 
+
+ 
+
+   <div class="card">
+
+                <div class="ctitle">Alertia syntax</div>
+
+                
+
+                <div class="detail">
+
+                    <div class="by">Order is: msg, type, style , time</div>
+
+                <div class="time">JS</div>
+
+                </div>
+
+                <div id="ccontent">alertia({"msg":"a advanced pop!","type":"success","style": "danger","time":"4000"});</div>
+
+        </div>
+
+ 
+
+        </div>
+
+        
+
+        <div class="slide">
+
+            
+
+            <p>Make your Project looks awesome by alertia!</p>
+
+            
+
+            <p>Designed & coded by: <strong>Abhi</strong></p>
+
+            <p>If you like this project then give it a thumbs up by an upvote or a star!</p>
+
+            
+
+            <p><strong>Thanks!</strong></p>
+
+            
+
+        </div>
+
+        
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+        </div>
+
+    </body>
+
+    
+
+    <script>
+
+        setTimeout(loader, 1000);
+
+      
+
+      
+
+      function loader() {
+
+          
+
+          $("#loader").fadeOut().empty();
+
+          $("#super").show();
+
+      }
+
+      
+
+    </script>
+
+    
+
+    
+
+        <script>
+
+var slides = $('.slide');
+
+slides.first().before(slides.last());
+
+$('button').on('click', function() {
+
+  slides = $('.slide');
+
+ 
+
+  var button = $(this);
+
+  
+
+  var activeSlide = $('.active');
+
+  
+
+  var color = '#'+Math.floor(Math.random()*16777215).toString(16);
+
+  
+
+ 
+
+  if (button.attr('id') == 'next') {
+
+   $('.slide').css("background-color", color);    
+
+   $('#header').css("background-color", color);    
+
+    slides.last().after(slides.first());
+
+    
+
+    activeSlide.removeClass('active').next('.slide').addClass('active');
+
+  }
+
+  
+
+  
+
+  
+
+  
+
+  if (button.attr('id') == 'previous') {
+
+  
+
+  $('.slide').css("background-color", color);    
+
+  $('#header').css("background-color", color);    
+
+   
+
+    
+
+    slides.first().before(slides.last());
+
+    
+
+    activeSlide.removeClass('active').prev('.slide').addClass('active');
+
+  }
+
+});
+
+$("#code").click(function (){
+
+    
+
+    alertia("Alertia is designed & coded by @abhiprojectz <br> for web developers");
+
+    
+
+})
+
+  
+
+    </script>
+
+    
+
+</html>
