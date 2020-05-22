@@ -31,7 +31,13 @@ alertia("A simple alert");
 
 and you get this: 
 
+![](https://raw.githubusercontent.com/abhiprojectz/alertia/master/assests/Screenshot_2020-05-21_193259-1.jpg)
+
+
 much better , customizable than simple js alert
+
+![](https://github.com/abhiprojectz/alertia/blob/master/assests/Screenshot_2020-05-22_150130-1.jpg?raw=true)
+
 
 ## Getting started
 
@@ -40,7 +46,13 @@ Link alertia js script through JSdelivr
 1. Insert this script in ``` <head></head> ```
 
 ```
+<script src="https://cdn.jsdelivr.net/gh/abhiprojectz/alertia/dist/alertia.js"></script>
 
+         
+
+         
+
+        
 ```
 
 2. Now just call alertia 
